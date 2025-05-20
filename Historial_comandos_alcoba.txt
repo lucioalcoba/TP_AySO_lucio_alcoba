@@ -1,0 +1,279 @@
+ls -l
+cd carpeta_compartida/
+ls -l
+cd..
+cd
+sudo useradd -m -s /bin/bash "lucio"
+sudo passwd "lucio"
+su - lucio
+mkdir clase5
+ls -l
+cd clase5/
+echo hola
+echo hola > texto1.txt
+ls -l
+cat texto1.txt
+chmod 666 texto1.txt 
+ls -l
+chmod 764 texto1.txt 
+ls -l
+echo chau > texto2.txt
+ls -l
+chmod 644 texto2.txt 
+ls -l
+cd..
+cd
+ls -l
+chmod -R 777 clase5/
+ls -l
+cd clase5/
+ls -l
+chmod 700 texto1.txt 
+ls -l
+chmod 600 texto1.txt 
+ls -l
+chmod 610 texto1.txt 
+ls -l
+chmod 601 texto1.txt 
+ls -l
+chmod g+r texto1.txt 
+ls -l
+echo mi primer script
+echo funciono ok
+cat << fin > script1
+pwd
+ls -l 
+echo mi primer script 
+echo funciono ok
+fin
+
+ls -l
+cat script1 
+bash script1 
+vim script2.sh 
+ls -l
+cat script2.sh 
+chmod 764 script2.sh 
+ls -l
+./script2.sh 
+vim script2.sh 
+./script2.sh 
+cd
+pwd
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+ls -la
+ls -la .ssh/
+cat .ssh/id_ed25519.pub
+mkdir repogit
+ls -l
+cp repogit/
+cd repogit/
+git clone git@github.com:lucioalcoba/TP_AySO_lucio_alcoba.git
+ls -l
+cd TP_AySO_lucio_alcoba/
+ls -l
+cat README.md 
+cat /etc/os-realease
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+ls -l
+git status
+git add .
+git status
+git commit -m "subo el archivo datos_url
+
+
+
+
+
+
+
+
+
+
+ls -l 
+ls -l
+git commit -m "subo el archivo datos_urgit commit -m "subo el archivo datos_url-m-_      "subolrimr__tgitit
+ls -l
+repogit
+cd repogit/
+ls -l
+cp TP_AySO_lucio_alcoba/
+cd TP_AySO_lucio_alcoba/
+ls -l
+cat datos_url.txt 
+cd
+cd repogit/
+ls -l
+cd TP_AySO_lucio_alcoba/
+ls -l
+clear
+echo "Usuario=lucio" > datos_usuario.txt
+ls -l
+cat datos_usuario.txt 
+git add .
+ls -l
+git status
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuarios.txt"
+git config --global user.email "lucioalcoba1@gmail.com"
+git config --global user.name "lucioalcoba"
+git status
+git push
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuarios.txt"
+git status
+git push
+[200~grep "model name" /proc/cpuinfo | head -n1 >>
+datos_usuarios.txt
+grep "model name" /proc/cpuinfo | head -n1 >>
+datos_usuarios.txt
+grep "model name" /proc/cpuinfo | head -n1 >>
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+ls -l
+cat datos_usuario.txt 
+git status
+git add .
+git status
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git push
+cat <<EOF >> README.md
+Alumno: lucio
+divicion: 114
+turno: mañana
+EOF
+
+git add README.md datos_usuarios.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git add .
+git status
+git push
+ls -l
+cat README.md 
+git status
+git push
+git add README.md datos_usuarios.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+cat README.md 
+nano README.md 
+cat README.md 
+git add README.md datos_usuarios.txt
+git status
+sdada
+halt 
+ls -
+halt 
+exit
+ls -l
+cd repogit/
+cd
+sudo apt install tree
+snap install tree
+sudo snap install tree
+mkdir -p {materia1,materia2}/uni{1..3}
+ls -l
+cat materia1
+tree
+ls -l
+cat clase5/
+cd clase5/
+ls -l
+cat script2.sh
+cd
+ls -l
+cat script_dir.sh 
+echo script_dir.sh
+ls -l
+cat <<fin > script_dir.sh
+#!/bin/bash
+mkdir -p {materia1,materia2}/uni{1..3}
+fin
+
+chmod +x script_dir.sh 
+ls -l
+./script_dir.sh 
+cat script_dir.sh 
+./script_dir.sh 
+ls -l
+tree
+cat script_dir.sh 
+nano script_dir.sh 
+./script_dir.sh 
+nano script_dir.sh 
+./script_dir.sh 
+clear
+ls -l
+git add .
+git add . 
+repogit/
+cd repogit/
+ls -l
+cd TP_AySO_lucio_alcoba/
+ls -l
+cd ..
+cd
+ls -l
+git add script_dir.sh 
+git add script_dir.sh
+.git add script_dir.sh
+pwd
+ls -l
+cat script_dir.sh
+nano script_dir.sh 
+cat script_dir.sh
+cd repogit/
+cd 
+git add script_dir.sh
+git add .
+cd repogit/
+cd TP_AySO_lucio_alcoba/
+ls -l
+cd ..
+cd 
+ls -l
+git add script_dir.sh
+cd repogit/
+cd TP_AySO_lucio_alcoba/
+ls -l
+git add .
+git add script_dir.sh
+ls -l
+git status
+cd ..
+cd 
+ls -l
+cd repogit/
+cd TP_AySO_lucio_alcoba/
+ls .l
+ls -l
+cd ..
+cd 
+cat script_dir.sh
+cd repogit/
+cd TP_AySO_lucio_alcoba/
+ls -l
+cat <<EOF > script_dir.sh
+#!/bin/bash
+mkdir -p ~/materia{1,2}/uni{1..3}
+EOF
+
+chmod +x script_dir.sh 
+ls -l
+./script_dir.sh 
+git add .
+git status
+git commit -m "ADD: Añadiendo script"
+git status
+git push
+history -a
+pwd
+cd ..
+cd
+history -a
+cd TP_AySO_lucio_alcoba/
+cd repogit/
+cd TP_AySO_lucio_alcoba/
+ls -l
